@@ -113,6 +113,96 @@ Then test run the app executing it:
 
 ### My Style
 
+A style I was happy with was:
+
+
+![My CSS Style Applied to Notable](./NotableTest.png)
+
+```css
+<style>
+pre {
+    background: #292B2E ;
+    border-top: 4px solid rgba(53,86,129, 0.3) ! important;
+    border-right: 4px solid rgba(53,86,129, 0.3) ! important;
+    background:  rgba(0, 0, 100, 0.05) ! important;
+    font-weight: 100;
+    /*border: 2px solid #ECECEC;*/
+    border: 1px solid #b3c6ff;
+    margin-left: 2em ! important ;
+    margin-right: 3em ! important ;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    overflow: auto;
+    padding: 20px 30px !important;
+    border-radius: 20px !important;
+      /* color: #ECECEC ! important ; */ /* Don't do this, use Transperancy alpha */
+    font-family: Source Code Pro ! important;
+
+}
+
+
+html,body{
+   margin: 50 em ! important;
+   font-family: DejaVu Sans ;
+    font-size: 18px ! important;
+}
+
+
+
+h1 {
+    font-size: 36px ! important;
+    line-height: 40px! important;
+     font-family: Source Code Pro Black ! important;
+     color: #4F97D7 ! important;
+     border-bottom: 5px solid rgba(53,86,129, 0.3) ! important;
+}
+
+h2 {
+    font-size: 32px! important;
+    line-height: 40px! important;
+     font-family: Source Code Pro Black ! important;
+     color: #2D9574 ! important;
+     border-bottom: 4px solid rgba(53,86,129, 0.3) ! important;
+     		
+}
+
+h3 {
+    font-size: 30px! important;
+    line-height: 40px! important;
+     font-family: Source Code Pro Black ! important;
+     color: #67AF20 ! important;
+     	border-bottom: 3px solid rgba(53,86,129, 0.3) ! important;
+}
+
+h4 {
+    font-size: 28px! important;
+    line-height: 20px! important;
+    color: #B1951D ! important;
+    font-family: Source Code Pro Semibold ! important;
+    border-bottom: 0px dotted rgba(53,86,129, 0.3) ! important;
+    
+}
+
+/* Won't be used here */
+
+h5 {
+    font-size: 26px! important;
+    line-height: 20px! important;
+  color: #4F97D7 ! important;
+  font-family: Source Code Pro Semibold  ! important;
+  border-bottom: 0px dotted rgba(53,86,129, 0.3) ! important;
+
+}
+
+h6 {
+    font-size: 24px! important;
+    line-height: 20px! important;
+      color: #2D9574 ! important;
+      font-family: Source Code Pro ! important;
+}
+
+</style>
+```
 
 
 This `.AppImage` can then be integrated into your system by followint [the documentation](https://docs.appimage.org/user-guide/run-appimages.html#integrating-appimages-into-the-desktop).
