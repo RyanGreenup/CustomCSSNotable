@@ -113,7 +113,7 @@ Then test run the app executing it:
 
 ### My Style
 
-A style I was happy with was:
+A style I was happy with, (requires the following fonts [souce code pro](https://github.com/adobe-fonts/source-code-pro) and [deja vu sans](https://github.com/web-fonts/dejavu-sans) 
 
 
 ![My CSS Style Applied to Notable](./NotableTest.png)
